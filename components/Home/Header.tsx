@@ -6,7 +6,7 @@ function Header() {
     <div className='w-full sm:h-[80vh] md:h-[90vh] lg:h-[90vh] relative flex flex-wrap justify-between items-center bg-white px-[5%] overflow-hidden'>
         <motion.div 
         initial={{ translateX: "-2.5%", opacity: 0 }}
-        whileInView={{ translateX: 0, opacity: 1 }}
+        animate={{ translateX: 0, opacity: 1 }}
         transition={{
           ease: "easeInOut",
           duration: 0.5
@@ -21,7 +21,7 @@ function Header() {
         </motion.div>
         <motion.div 
         initial={{ translateX: "2.5%", opacity: 0 }}
-        whileInView={{ translateX: 0, opacity: 1 }}
+        animate={{ translateX: 0, opacity: 1 }}
         transition={{
           ease: "easeInOut",
           duration: 0.5
