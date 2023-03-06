@@ -22,7 +22,11 @@
 
 @layer components{
   .btn{
-    @apply transition w-fit h-fit p-[0.7rem_2.2rem] text-sm font-normal rounded-md flex flex-col justify-center items-center cursor-pointer
+    @apply transition w-fit h-fit p-[0.6rem_2.2rem] text-sm font-normal rounded-md flex justify-center items-center gap-2 cursor-pointer
+  }
+
+  .btn-block{
+    @apply w-full
   }
   
   .btn-primary{
@@ -39,5 +43,13 @@
 
   .btn-outline-secondary{
     @apply border border-secondary bg-transparent text-secondary hover:bg-secondary hover:text-white
+  }
+
+  .input-label{
+    @apply text-slate-500 text-[0.8rem] font-light
+  }
+
+  .input{
+    @apply transition w-full h-fit p-[0.4rem_0.6rem] text-dark text-[0.8rem] font-light bg-white border border-slate-400 focus:border-primary focus:outline-none rounded-md
   }
 }
