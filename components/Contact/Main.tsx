@@ -13,7 +13,7 @@ function Main() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_drg0s6d', 'template_x9g192q', form.current, 
+        emailjs.sendForm('service_w27v64k', 'template_x9g192q', form.current, 
         'oE-PwvCO-iwKedSHI'
         //'772InehuZSa1PHUKO'
         ).then((result)=>{
