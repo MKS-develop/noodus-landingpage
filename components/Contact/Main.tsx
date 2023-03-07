@@ -36,11 +36,11 @@ function Main() {
     return (
         <div className='h-[75vh] flex justify-center items-center py-8 px-[20%] box-border gap-5'>
         {success && <div className='cursor-pointer absolute top-5 right-5 bg-white text-sm py-3 px-5 w-fit text-green-700 border rounded-md shadow-md flex gap-3 justify-start items-center' onClick={()=>{ setSuccess(false) }}>
-            <AiFillCloseCircle size={25}/>
+            <AiFillCheckCircle size={25}/>
             <p className='text-slate-900'>Correo enviado exitosamente</p>
         </div>}
         {error && <div className='cursor-pointer absolute top-5 right-5 bg-white text-sm py-3 px-5 w-fit text-red-700 border rounded-md shadow-md flex gap-3 justify-start items-center' onClick={()=>{ setError(false) }}>
-            <AiFillCheckCircle size={25}/>
+            <AiFillCloseCircle size={25}/>
             <p className='text-slate-900'>Ha ocurrido un error inesperado</p>
         </div>}
             <div className='w-1/2 h-full bg-secondary flex flex-col justify-between items-start rounded-2xl p-7 gap-5'>
