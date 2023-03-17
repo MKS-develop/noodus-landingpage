@@ -14,6 +14,7 @@ const Layout = (props:Props) => {
         <div className='h-fit'>
             <Head>
                 <title>{`${title} - Noodus`}</title>
+                <link rel="icon" href={'iso.png'} />
             </Head>
             <div className={`relative block w-full bg-white`}>
                 <Navbar/>

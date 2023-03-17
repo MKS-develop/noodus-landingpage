@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -15,7 +16,7 @@ function Header() {
             <p className="text-secondary text-4xl font-bold">Conecta, integra y gestiona tu comunidad de salud</p>
             <p className="text-slate-500 text-base font-normal">La experiencia del paciente es la diferencia. No se trata solo de satisfacer a tus pacientes, sino de integrar el servicio en tu estrategia de crecimiento y monetización.</p>
             <div className="w-full flex justify-start items-center gap-5">
-                <div className='btn btn-primary'>Contáctanos</div>
+                <Link href="/contact" className='btn btn-primary'>Contáctanos</Link>
             </div>
         </motion.div>
         <motion.div 
